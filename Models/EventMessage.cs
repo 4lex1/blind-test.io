@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BlindTestIo.Hubs
+namespace BlindTestIo.Models
 {
     public class EventMessage
     {

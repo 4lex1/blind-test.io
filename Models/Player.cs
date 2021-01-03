@@ -1,4 +1,4 @@
-﻿namespace BlindTestIo.Hubs
+﻿namespace BlindTestIo.Models
 {
     public class Player
     {
