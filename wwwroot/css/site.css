@@ -1,0 +1,206 @@
+﻿/*-------------------
+        GENERAL 
+*/
+a:hover{
+    color:inherit;
+}
+
+html{
+    height:100%;
+}
+
+/*-------------------
+        INDEX
+*/
+.title {
+    font-weight: bolder;
+    color: #F9BB3C;
+}
+
+.subtitle {
+    font-weight: bold;
+    border-color: rgb(33,124,215);
+    color: #3C87FA;
+}
+
+.playButton {
+    background-color: #f9bb3c;
+    color: #000000;
+    transition-duration: 0.6s;
+    width: 100px;
+    height: 45px;
+    margin: 1em auto auto auto;
+    text-align: center;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+    .playButton:hover {
+        background-color: #ffffff;
+        width: 100%;
+    }
+
+.playButtonTxt {
+    font-weight: bold;
+    margin: 0;
+}
+
+/*-------------------
+        GAME
+*/
+.gameBody{
+    background-color:#1f1f1f;
+}
+
+.red {
+    background-color: red;
+}
+
+.gameBlock{
+    margin: 0 0 2em 0;
+}
+
+.buzzer {
+    margin: auto;
+    height: 8em;
+    width: 8em;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 3px solid black;
+    background-color: #e86b54;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buzzerTxt{
+    font-weight:bolder;
+    margin:0;
+    color:black;
+    font-size:2em;
+    user-select:none;
+}
+
+.events{
+    width:100%;
+}
+
+.event{
+    color:white;
+    transition-duration: 0.3s;
+}
+
+.event-appear{  
+    color:red;
+}
+
+.video {
+    width:100%;
+    margin: auto;
+    position:absolute;
+}
+
+.videoHider {
+    position: absolute;
+    background-color: none;
+    width: 100%;
+    height: 23em;
+    z-index: 10;
+}
+
+.videoDummy {
+    width: 40em;
+    height: 23em;
+}
+
+.buzzOverlay {
+    position: fixed;
+    display:flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.95);
+    z-index: 100;
+    align-items: center;
+    justify-content: center;
+}
+
+.buzzPlayer {
+    font-weight: bolder;
+    color: white;
+    margin: auto;
+    font-size: 2em;
+    user-select: none;
+}
+
+.welcomeOverlay {
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.95);
+    z-index: 100;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcomeText {
+    font-weight: bolder;
+    color: white;
+    margin: auto;
+    font-size: 3em;
+    user-select: none;
+}
+
+
+.player0 {
+    color: #ff0000;
+}
+.player1 {
+    color: #fcf805;
+}
+.player2 {
+    color: #04ff00;
+}
+.player3 {
+    color: #00e5ff;
+}
+.player4 {
+    color: #f700ff;
+}
+.player5 {
+    color: #7700ff;
+}
+.player6 {
+    color: #0026ff;
+}
+.player7 {
+    color: #ff8000;
+}
+.player8 {
+    color: #ffcf8c;
+}
+.player9 {
+    color: #8fff91;
+}
+.player10 {
+    color: #058c00;
+}
+.player11 {
+    color: #00ffb7;
+}
+.player12 {
+    color: #9d9cff;
+}
+.player13 {
+    color: #ff8c8c;
+}
+.player14{
+    color: #feabff
+}
